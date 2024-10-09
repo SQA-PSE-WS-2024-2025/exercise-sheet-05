@@ -18,12 +18,10 @@ public class HamsterPartyGame extends SimpleHamsterGame {
 		this.displayInNewGameWindow();
 		game.startGame();
 	}
-	
+
 	/**
-	 * Starts the HamsterPartyGame.	
-	 * 
+	 * Starts the HamsterPartyGame.
+	 *
 	 */
-	protected void run() {
-		
-	}
+	protected void run() {}
 }

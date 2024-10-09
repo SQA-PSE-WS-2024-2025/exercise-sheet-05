@@ -22,33 +22,30 @@ public abstract class BaseControlFlowHamsterGame extends SimpleHamsterGame {
 		game.startGame();
 	}
 
-	
-	/*@
-	 @ ensures that paule stands in front of a wall.
-	 @*/
 	/**
 	 * Move paule to the next wall.
-	 * 
-	 * This is an example for an operation with with pre- and postconditions and
+	 *
+	 * Ensures that paule's front is not clear.
+	 *
+	 * This is an example for an operation with pre- and postconditions and
 	 * loop(in)variants in natural language.
 	 */
 	protected void moveToWall() {
 		/*@
-		 @ loop_invariant paule moved number of already executed loop iterations steps.
-		 @ decreasing number of tiles between paule and the next wall.
-		 @*/
-		while(paule.frontIsClear()) {
+		@ loop_invariant paule moved number of already executed loop iterations steps.
+		@ decreasing number of tiles between paule and the next wall.
+		@*/
+		while (paule.frontIsClear()) {
 			paule.move();
 		}
 	}
-	
+
 	/*
 	 * Please implement your solutions into the following methods.
 	 * Remember to add the appropriate JavaDoc documentation and pre-post conditions for each operation
 	 * as well as the variants and loop invariants for any loops that are part of your implementation.
 	 */
-	
-	
+
 	protected void pickGrainIfAvailable() {
 		// TODO: Please implement according to exercise 1 (c-i)
 	}
