@@ -127,6 +127,24 @@
 							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.controlflow.exercise2.games.SecondaryCleaningGameApp</mainClass>
 						</configuration>
 					</execution>
+					<execution>
+						<id>HamsterPartyGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.homework.HamsterPartyGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>ExerciseHamsterGameApp</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet05.presence.ExerciseHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 			<plugin>
