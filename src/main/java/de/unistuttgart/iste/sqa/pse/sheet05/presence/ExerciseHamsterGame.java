@@ -22,7 +22,7 @@ public final class ExerciseHamsterGame extends SimpleHamsterGame {
 	 * <li> Territory size
 	 * <li> Amount of Grains
 	 * <li> Number of hamsters in the field
-	 * 
+	 *
 	 */
 	@Override
 	protected void run() {
